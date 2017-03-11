@@ -184,7 +184,7 @@ answeredCorrectly: function() {
   clearInterval(timer);
   game.correct++;
   panel.html('<h2>Correct!</h2>');
-  panel.append('<img src="' + questions[game.currentQuestion.image] + '" />');
+  panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
   if(game.currentQuestion === questions.length - 1) {
     setTimeout(game.results, 4 * 1000);
   }else{
