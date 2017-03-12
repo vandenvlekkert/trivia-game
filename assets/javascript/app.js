@@ -44,7 +44,7 @@ var questions = [{
   image: "assets/images/madamHooch.jpg"
 }, {
   question: "What schools was not in the Triwizard Tournament?",
-  answers: ["Durmstrang", "Beauxbatons Academy of Magic", "Howarts School of Witchcraft and Wizardry", "Ilvermorny School of Witchcraft and Wizardry"],
+  answers: ["Durmstrang", "Beauxbatons Academy of Magic", "Hogwarts School of Witchcraft and Wizardry", "Ilvermorny School of Witchcraft and Wizardry"],
   correctAnswer: "Ilvermorny School of Witchcraft and Wizardry",
   image: "assets/images/Ilvermorny.jpg"
 }, {
