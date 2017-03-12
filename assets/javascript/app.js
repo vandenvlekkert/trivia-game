@@ -1,5 +1,5 @@
 var panel = $('#quiz-area');
-var countStartNumber = 10;
+var countStartNumber = 15;
 
 //Click events
 
@@ -12,7 +12,7 @@ $(document).on('click', '.answer-button', function(e) {
 });
 
 $(document).on('click', '#start', function(e) {
-  $('#subwrapper').prepend('<h2>Time remaining: <span id="counter-number">10</span> Seconds</h2>');
+  $('#subwrapper').prepend('<h2>Time remaining: <span id="counter-number">15</span> Seconds</h2>');
     game.loadQuestion();
 });
 
@@ -145,9 +145,9 @@ timeUp: function() {
   panel.append('<img src="' + questions[this.currentQuestion].image + '" />');
 
   if(game.currentQuestion === questions.length -1) {
-    setTimeout(game.results, 4 * 1000);
+    setTimeout(game.results, 15 * 1000);
   }else{
-    setTimeout(game.nextQuestion, 4 * 1000);
+    setTimeout(game.nextQuestion, 15 * 1000);
   }
 },
 results: function() {
@@ -175,9 +175,9 @@ answeredIncorrectly: function() {
   panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
 
   if(game.currentQuestion === questions.length - 1) {
-    setTimeout(game.results, 4 * 1000);
+    setTimeout(game.results, 3 * 1000);
   }else{
-    setTimeout(game.nextQuestion, 4 * 1000);
+    setTimeout(game.nextQuestion, 3 * 1000);
   }
 },
 answeredCorrectly: function() {
@@ -186,9 +186,9 @@ answeredCorrectly: function() {
   panel.html('<h2>Correct!</h2>');
   panel.append('<img src="' + questions[game.currentQuestion].image + '" />');
   if(game.currentQuestion === questions.length - 1) {
-    setTimeout(game.results, 4 * 1000);
+    setTimeout(game.results, 3 * 1000);
   }else{
-    setTimeout(game.nextQuestion, 4 * 1000);
+    setTimeout(game.nextQuestion, 3 * 1000);
   }
 },
 reset: function() {
