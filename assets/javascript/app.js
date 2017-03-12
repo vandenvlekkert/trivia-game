@@ -79,7 +79,7 @@ var questions = [{
   image: "assets/images/lockhart.gif"
 }, {
   question: "what was Mad Eye Moody?",
-  answers: ["Minister of Magic", "Journalist", "Professor of Transfiguration", "Most famous Auror"],
+  answers: ["Minister of Magic", "Journalist", "Professor of Transfiguration", "Most Famous Auror"],
   correctAnswer: "Most Famous Auror",
   image: "assets/images/moody.gif"
 }, {
@@ -105,7 +105,7 @@ var questions = [{
 }, {
   question: "Will you remember which character you loved most at Hogwarts?",
   answers: ["No, I didn't like any of them", "Maybe one or two", "Of course!", "Always!"],
-  correctAnswer: "Always",
+  correctAnswer: "Always!",
   image: "assets/images/always.gif"
 }];
 
