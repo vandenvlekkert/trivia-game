@@ -43,7 +43,7 @@ var questions = [{
   correctAnswer: "Madam Hooch",
   image: "assets/images/madamHooch.jpg"
 }, {
-  question: "What schools was not in the Triwizard Tournament?",
+  question: "What school was not in the Triwizard Tournament?",
   answers: ["Durmstrang", "Beauxbatons Academy of Magic", "Hogwarts School of Witchcraft and Wizardry", "Ilvermorny School of Witchcraft and Wizardry"],
   correctAnswer: "Ilvermorny School of Witchcraft and Wizardry",
   image: "assets/images/Ilvermorny.jpg"
@@ -93,7 +93,7 @@ var questions = [{
   correctAnswer: "Draco Malfoy",
   image: "assets/images/draco.gif"
 }, {
-  question: "What spell saved Harry Potter during the night that his parents were killed?",
+  question: "What spell saved Harry Potter on the night that his parents were killed?",
   answers: ["Expelliarmus", "Petrificus Totalus", "Avada Kedavra", "None.  It was his mother's love"],
   correctAnswer: "None.  It was his mother's love",
   image: "assets/images/love.jpg"
