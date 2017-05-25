@@ -10,4 +10,4 @@ In this project, I created a simple trivia game using JavaScript for the logic a
 => On the final screen, the player is shown the number of correct answers, incorrect answers, and an option to restart the game without reloading.
 
 
-Try it out for yourself:  https://morning-sierra-59659.herokuapp.com/
+Try it out for yourself:  https://vandenvlekkert.github.io/trivia-game/
